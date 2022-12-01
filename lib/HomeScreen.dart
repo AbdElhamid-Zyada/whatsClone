@@ -68,386 +68,1903 @@ class HomeScreen extends StatelessWidget {
             SizedBox(
               height: 10,
             ),
-            Padding(
-              padding: const EdgeInsets.all(8.0),
+            SingleChildScrollView(
+              scrollDirection: Axis.horizontal,
+              child: Row(
+                children: [
+                  Container(
+                    width: 60,
+                    child: Column(
+                      children: [
+                        Stack(
+                          alignment: AlignmentDirectional.bottomEnd,
+                          children: [
+                            CircleAvatar(
+                              child: Image(
+                                image: NetworkImage(
+                                  "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+                                ),
+                              ),
+                            ),
+                            CircleAvatar(
+                              backgroundColor: Colors.white,
+                              radius: 5.75,
+                            ),
+                            CircleAvatar(
+                              foregroundColor: Colors.greenAccent,
+                              radius: 5,
+                            ),
+                          ],
+                        ),
+                        Text(
+                          textAlign: TextAlign.center,
+                          "Abd El-hamed Zyada",
+                          maxLines: 2,
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ],
+                    ),
+                  ),
+                  SizedBox(
+                    height: 20,
+                  ),
+                  Container(
+                    width: 60,
+                    child: Column(
+                      children: [
+                        Stack(
+                          children: [
+                            CircleAvatar(
+                              child: Image(
+                                image: NetworkImage(
+                                  "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                        Text(
+                          textAlign: TextAlign.center,
+                          "Abd El-hamed Zyada",
+                          maxLines: 2,
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ],
+                    ),
+                  ),
+                  SizedBox(
+                    height: 20,
+                  ),
+                  Container(
+                    width: 60,
+                    child: Column(
+                      children: [
+                        Stack(
+                          children: [
+                            CircleAvatar(
+                              child: Image(
+                                image: NetworkImage(
+                                  "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                        Text(
+                          textAlign: TextAlign.center,
+                          "Abd El-hamed Zyada",
+                          maxLines: 2,
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ],
+                    ),
+                  ),
+                  SizedBox(
+                    height: 20,
+                  ),
+                  Container(
+                    width: 60,
+                    child: Column(
+                      children: [
+                        Stack(
+                          children: [
+                            CircleAvatar(
+                              child: Image(
+                                image: NetworkImage(
+                                  "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                        Text(
+                          textAlign: TextAlign.center,
+                          "Abd El-hamed Zyada",
+                          maxLines: 2,
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ],
+                    ),
+                  ),
+                  SizedBox(
+                    height: 20,
+                  ),
+                  Container(
+                    width: 60,
+                    child: Column(
+                      children: [
+                        Stack(
+                          children: [
+                            CircleAvatar(
+                              child: Image(
+                                image: NetworkImage(
+                                  "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                        Text(
+                          textAlign: TextAlign.center,
+                          "Abd El-hamed Zyada",
+                          maxLines: 2,
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ],
+                    ),
+                  ),
+                  SizedBox(
+                    height: 20,
+                  ),
+                  Container(
+                    width: 60,
+                    child: Column(
+                      children: [
+                        Stack(
+                          children: [
+                            CircleAvatar(
+                              child: Image(
+                                image: NetworkImage(
+                                  "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                        Text(
+                          textAlign: TextAlign.center,
+                          "Abd El-hamed Zyada",
+                          maxLines: 2,
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ],
+                    ),
+                  ),
+                  SizedBox(
+                    height: 20,
+                  ),
+                  Container(
+                    width: 60,
+                    child: Column(
+                      children: [
+                        Stack(
+                          children: [
+                            CircleAvatar(
+                              child: Image(
+                                image: NetworkImage(
+                                  "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                        Text(
+                          textAlign: TextAlign.center,
+                          "Abd El-hamed Zyada",
+                          maxLines: 2,
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ],
+                    ),
+                  ),
+                  SizedBox(
+                    height: 20,
+                  ),
+                  Container(
+                    width: 60,
+                    child: Column(
+                      children: [
+                        Stack(
+                          children: [
+                            CircleAvatar(
+                              child: Image(
+                                image: NetworkImage(
+                                  "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                        Text(
+                          textAlign: TextAlign.center,
+                          "Abd El-hamed Zyada",
+                          maxLines: 2,
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ],
+                    ),
+                  ),
+                  SizedBox(
+                    height: 20,
+                  ),
+                  Container(
+                    width: 60,
+                    child: Column(
+                      children: [
+                        Stack(
+                          children: [
+                            CircleAvatar(
+                              child: Image(
+                                image: NetworkImage(
+                                  "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                        Text(
+                          textAlign: TextAlign.center,
+                          "Abd El-hamed Zyada",
+                          maxLines: 2,
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ],
+                    ),
+                  ),
+                  SizedBox(
+                    height: 20,
+                  ),
+                  Container(
+                    width: 60,
+                    child: Column(
+                      children: [
+                        Stack(
+                          children: [
+                            CircleAvatar(
+                              child: Image(
+                                image: NetworkImage(
+                                  "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                        Text(
+                          textAlign: TextAlign.center,
+                          "Abd El-hamed Zyada",
+                          maxLines: 2,
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ],
+                    ),
+                  ),
+                  SizedBox(
+                    height: 20,
+                  ),
+                  Container(
+                    width: 60,
+                    child: Column(
+                      children: [
+                        Stack(
+                          children: [
+                            CircleAvatar(
+                              child: Image(
+                                image: NetworkImage(
+                                  "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                        Text(
+                          textAlign: TextAlign.center,
+                          "Abd El-hamed Zyada",
+                          maxLines: 2,
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ],
+                    ),
+                  ),
+                  SizedBox(
+                    height: 20,
+                  ),
+                  Container(
+                    width: 60,
+                    child: Column(
+                      children: [
+                        Stack(
+                          children: [
+                            CircleAvatar(
+                              child: Image(
+                                image: NetworkImage(
+                                  "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                        Text(
+                          textAlign: TextAlign.center,
+                          "Abd El-hamed Zyada",
+                          maxLines: 2,
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ],
+                    ),
+                  ),
+                  SizedBox(
+                    height: 20,
+                  ),
+                  Container(
+                    width: 60,
+                    child: Column(
+                      children: [
+                        Stack(
+                          children: [
+                            CircleAvatar(
+                              child: Image(
+                                image: NetworkImage(
+                                  "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                        Text(
+                          textAlign: TextAlign.center,
+                          "Abd El-hamed Zyada",
+                          maxLines: 2,
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ],
+                    ),
+                  ),
+                  SizedBox(
+                    height: 20,
+                  ),
+                  Container(
+                    width: 60,
+                    child: Column(
+                      children: [
+                        Stack(
+                          children: [
+                            CircleAvatar(
+                              child: Image(
+                                image: NetworkImage(
+                                  "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                        Text(
+                          textAlign: TextAlign.center,
+                          "Abd El-hamed Zyada",
+                          maxLines: 2,
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            Expanded(
               child: SingleChildScrollView(
-                scrollDirection: Axis.horizontal,
-                child: Row(
+                child: Column(
                   children: [
-                    Container(
-                      width: 60,
-                      child: Column(
-                        children: [
-                          Stack(
-                            children: [
-                              CircleAvatar(
-                                child: Image(
-                                  image: NetworkImage(
-                                    "https://cdn-icons-png.flaticon.com/512/149/149071.png",
-                                  ),
+                    Row(
+                      children: [
+                        Stack(
+                          alignment: AlignmentDirectional.bottomEnd,
+                          children: [
+                            CircleAvatar(
+                              child: Image(
+                                image: NetworkImage(
+                                  "https://cdn-icons-png.flaticon.com/512/149/149071.png",
                                 ),
+                              ),
+                            ),
+                            CircleAvatar(
+                              backgroundColor: Colors.white,
+                              radius: 5.75,
+                            ),
+                            CircleAvatar(
+                              foregroundColor: Colors.greenAccent,
+                              radius: 5,
+                            ),
+                          ],
+                        ),
+                        SizedBox(
+                          width: 15,
+                        ),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                "Ahmed AliAhmed AliAhmed AliAhmed AliAhmed AliAhmed AliAhmed AliAhmed AliAhmed AliAhmed AliAhmed AliAhmed Ali",
+                                maxLines: 1,
+                                overflow: TextOverflow.ellipsis,
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                              SizedBox(
+                                height: 10,
+                              ),
+                              Row(
+                                children: [
+                                  Expanded(
+                                    child: Text(
+                                      "hello world",
+                                      maxLines: 1,
+                                      overflow: TextOverflow.ellipsis,
+                                    ),
+                                  ),
+                                  Padding(
+                                    padding: const EdgeInsets.symmetric(
+                                      horizontal: 10,
+                                    ),
+                                    child: Container(
+                                      width: 9,
+                                      height: 9,
+                                      decoration: BoxDecoration(
+                                        shape: BoxShape.circle,
+                                        color: Colors.amber,
+                                      ),
+                                    ),
+                                  ),
+                                  Text(
+                                    "1:40",
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          Text(
-                            textAlign: TextAlign.center,
-                            "Abd El-hamed Zyada",
-                            maxLines: 2,
-                            overflow: TextOverflow.ellipsis,
-                          ),
-                        ],
-                      ),
+                        ),
+                      ],
                     ),
                     SizedBox(
-                      height: 20,
+                      height: 10,
                     ),
-                    Container(
-                      width: 60,
-                      child: Column(
-                        children: [
-                          Stack(
-                            children: [
-                              CircleAvatar(
-                                child: Image(
-                                  image: NetworkImage(
-                                    "https://cdn-icons-png.flaticon.com/512/149/149071.png",
-                                  ),
+                    Row(
+                      children: [
+                        Stack(
+                          alignment: AlignmentDirectional.bottomEnd,
+                          children: [
+                            CircleAvatar(
+                              child: Image(
+                                image: NetworkImage(
+                                  "https://cdn-icons-png.flaticon.com/512/149/149071.png",
                                 ),
+                              ),
+                            ),
+                            CircleAvatar(
+                              backgroundColor: Colors.white,
+                              radius: 5.75,
+                            ),
+                            CircleAvatar(
+                              foregroundColor: Colors.greenAccent,
+                              radius: 5,
+                            ),
+                          ],
+                        ),
+                        SizedBox(
+                          width: 15,
+                        ),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                "Ahmed Ali",
+                                maxLines: 1,
+                                overflow: TextOverflow.ellipsis,
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                              SizedBox(
+                                height: 10,
+                              ),
+                              Row(
+                                children: [
+                                  Expanded(
+                                    child: Text(
+                                      "hello world",
+                                      maxLines: 1,
+                                      overflow: TextOverflow.ellipsis,
+                                    ),
+                                  ),
+                                  Padding(
+                                    padding: const EdgeInsets.symmetric(
+                                      horizontal: 10,
+                                    ),
+                                    child: Container(
+                                      width: 9,
+                                      height: 9,
+                                      decoration: BoxDecoration(
+                                        shape: BoxShape.circle,
+                                        color: Colors.amber,
+                                      ),
+                                    ),
+                                  ),
+                                  Text(
+                                    "1:40",
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          Text(
-                            textAlign: TextAlign.center,
-                            "Abd El-hamed Zyada",
-                            maxLines: 2,
-                            overflow: TextOverflow.ellipsis,
-                          ),
-                        ],
-                      ),
+                        ),
+                      ],
                     ),
                     SizedBox(
-                      height: 20,
+                      height: 10,
                     ),
-                    Container(
-                      width: 60,
-                      child: Column(
-                        children: [
-                          Stack(
-                            children: [
-                              CircleAvatar(
-                                child: Image(
-                                  image: NetworkImage(
-                                    "https://cdn-icons-png.flaticon.com/512/149/149071.png",
-                                  ),
+                    Row(
+                      children: [
+                        Stack(
+                          alignment: AlignmentDirectional.bottomEnd,
+                          children: [
+                            CircleAvatar(
+                              child: Image(
+                                image: NetworkImage(
+                                  "https://cdn-icons-png.flaticon.com/512/149/149071.png",
                                 ),
+                              ),
+                            ),
+                            CircleAvatar(
+                              backgroundColor: Colors.white,
+                              radius: 5.75,
+                            ),
+                            CircleAvatar(
+                              foregroundColor: Colors.greenAccent,
+                              radius: 5,
+                            ),
+                          ],
+                        ),
+                        SizedBox(
+                          width: 15,
+                        ),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                "Ahmed Ali",
+                                maxLines: 1,
+                                overflow: TextOverflow.ellipsis,
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                              SizedBox(
+                                height: 10,
+                              ),
+                              Row(
+                                children: [
+                                  Expanded(
+                                    child: Text(
+                                      "hello world",
+                                      maxLines: 1,
+                                      overflow: TextOverflow.ellipsis,
+                                    ),
+                                  ),
+                                  Padding(
+                                    padding: const EdgeInsets.symmetric(
+                                      horizontal: 10,
+                                    ),
+                                    child: Container(
+                                      width: 9,
+                                      height: 9,
+                                      decoration: BoxDecoration(
+                                        shape: BoxShape.circle,
+                                        color: Colors.amber,
+                                      ),
+                                    ),
+                                  ),
+                                  Text(
+                                    "1:40",
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          Text(
-                            textAlign: TextAlign.center,
-                            "Abd El-hamed Zyada",
-                            maxLines: 2,
-                            overflow: TextOverflow.ellipsis,
-                          ),
-                        ],
-                      ),
+                        ),
+                      ],
                     ),
                     SizedBox(
-                      height: 20,
+                      height: 10,
                     ),
-                    Container(
-                      width: 60,
-                      child: Column(
-                        children: [
-                          Stack(
-                            children: [
-                              CircleAvatar(
-                                child: Image(
-                                  image: NetworkImage(
-                                    "https://cdn-icons-png.flaticon.com/512/149/149071.png",
-                                  ),
+                    Row(
+                      children: [
+                        Stack(
+                          alignment: AlignmentDirectional.bottomEnd,
+                          children: [
+                            CircleAvatar(
+                              child: Image(
+                                image: NetworkImage(
+                                  "https://cdn-icons-png.flaticon.com/512/149/149071.png",
                                 ),
+                              ),
+                            ),
+                            CircleAvatar(
+                              backgroundColor: Colors.white,
+                              radius: 5.75,
+                            ),
+                            CircleAvatar(
+                              foregroundColor: Colors.greenAccent,
+                              radius: 5,
+                            ),
+                          ],
+                        ),
+                        SizedBox(
+                          width: 15,
+                        ),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                "Ahmed Ali",
+                                maxLines: 1,
+                                overflow: TextOverflow.ellipsis,
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                              SizedBox(
+                                height: 10,
+                              ),
+                              Row(
+                                children: [
+                                  Expanded(
+                                    child: Text(
+                                      "hello world",
+                                      maxLines: 1,
+                                      overflow: TextOverflow.ellipsis,
+                                    ),
+                                  ),
+                                  Padding(
+                                    padding: const EdgeInsets.symmetric(
+                                      horizontal: 10,
+                                    ),
+                                    child: Container(
+                                      width: 9,
+                                      height: 9,
+                                      decoration: BoxDecoration(
+                                        shape: BoxShape.circle,
+                                        color: Colors.amber,
+                                      ),
+                                    ),
+                                  ),
+                                  Text(
+                                    "1:40",
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          Text(
-                            textAlign: TextAlign.center,
-                            "Abd El-hamed Zyada",
-                            maxLines: 2,
-                            overflow: TextOverflow.ellipsis,
-                          ),
-                        ],
-                      ),
+                        ),
+                      ],
                     ),
                     SizedBox(
-                      height: 20,
+                      height: 10,
                     ),
-                    Container(
-                      width: 60,
-                      child: Column(
-                        children: [
-                          Stack(
-                            children: [
-                              CircleAvatar(
-                                child: Image(
-                                  image: NetworkImage(
-                                    "https://cdn-icons-png.flaticon.com/512/149/149071.png",
-                                  ),
+                    Row(
+                      children: [
+                        Stack(
+                          alignment: AlignmentDirectional.bottomEnd,
+                          children: [
+                            CircleAvatar(
+                              child: Image(
+                                image: NetworkImage(
+                                  "https://cdn-icons-png.flaticon.com/512/149/149071.png",
                                 ),
+                              ),
+                            ),
+                            CircleAvatar(
+                              backgroundColor: Colors.white,
+                              radius: 5.75,
+                            ),
+                            CircleAvatar(
+                              foregroundColor: Colors.greenAccent,
+                              radius: 5,
+                            ),
+                          ],
+                        ),
+                        SizedBox(
+                          width: 15,
+                        ),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                "Ahmed Ali",
+                                maxLines: 1,
+                                overflow: TextOverflow.ellipsis,
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                              SizedBox(
+                                height: 10,
+                              ),
+                              Row(
+                                children: [
+                                  Expanded(
+                                    child: Text(
+                                      "hello world",
+                                      maxLines: 1,
+                                      overflow: TextOverflow.ellipsis,
+                                    ),
+                                  ),
+                                  Padding(
+                                    padding: const EdgeInsets.symmetric(
+                                      horizontal: 10,
+                                    ),
+                                    child: Container(
+                                      width: 9,
+                                      height: 9,
+                                      decoration: BoxDecoration(
+                                        shape: BoxShape.circle,
+                                        color: Colors.amber,
+                                      ),
+                                    ),
+                                  ),
+                                  Text(
+                                    "1:40",
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          Text(
-                            textAlign: TextAlign.center,
-                            "Abd El-hamed Zyada",
-                            maxLines: 2,
-                            overflow: TextOverflow.ellipsis,
-                          ),
-                        ],
-                      ),
+                        ),
+                      ],
                     ),
                     SizedBox(
-                      height: 20,
+                      height: 10,
                     ),
-                    Container(
-                      width: 60,
-                      child: Column(
-                        children: [
-                          Stack(
-                            children: [
-                              CircleAvatar(
-                                child: Image(
-                                  image: NetworkImage(
-                                    "https://cdn-icons-png.flaticon.com/512/149/149071.png",
-                                  ),
+                    Row(
+                      children: [
+                        Stack(
+                          alignment: AlignmentDirectional.bottomEnd,
+                          children: [
+                            CircleAvatar(
+                              child: Image(
+                                image: NetworkImage(
+                                  "https://cdn-icons-png.flaticon.com/512/149/149071.png",
                                 ),
+                              ),
+                            ),
+                            CircleAvatar(
+                              backgroundColor: Colors.white,
+                              radius: 5.75,
+                            ),
+                            CircleAvatar(
+                              foregroundColor: Colors.greenAccent,
+                              radius: 5,
+                            ),
+                          ],
+                        ),
+                        SizedBox(
+                          width: 15,
+                        ),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                "Ahmed Ali",
+                                maxLines: 1,
+                                overflow: TextOverflow.ellipsis,
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                              SizedBox(
+                                height: 10,
+                              ),
+                              Row(
+                                children: [
+                                  Expanded(
+                                    child: Text(
+                                      "hello world",
+                                      maxLines: 1,
+                                      overflow: TextOverflow.ellipsis,
+                                    ),
+                                  ),
+                                  Padding(
+                                    padding: const EdgeInsets.symmetric(
+                                      horizontal: 10,
+                                    ),
+                                    child: Container(
+                                      width: 9,
+                                      height: 9,
+                                      decoration: BoxDecoration(
+                                        shape: BoxShape.circle,
+                                        color: Colors.amber,
+                                      ),
+                                    ),
+                                  ),
+                                  Text(
+                                    "1:40",
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          Text(
-                            textAlign: TextAlign.center,
-                            "Abd El-hamed Zyada",
-                            maxLines: 2,
-                            overflow: TextOverflow.ellipsis,
-                          ),
-                        ],
-                      ),
+                        ),
+                      ],
                     ),
                     SizedBox(
-                      height: 20,
+                      height: 10,
                     ),
-                    Container(
-                      width: 60,
-                      child: Column(
-                        children: [
-                          Stack(
-                            children: [
-                              CircleAvatar(
-                                child: Image(
-                                  image: NetworkImage(
-                                    "https://cdn-icons-png.flaticon.com/512/149/149071.png",
-                                  ),
+                    Row(
+                      children: [
+                        Stack(
+                          alignment: AlignmentDirectional.bottomEnd,
+                          children: [
+                            CircleAvatar(
+                              child: Image(
+                                image: NetworkImage(
+                                  "https://cdn-icons-png.flaticon.com/512/149/149071.png",
                                 ),
+                              ),
+                            ),
+                            CircleAvatar(
+                              backgroundColor: Colors.white,
+                              radius: 5.75,
+                            ),
+                            CircleAvatar(
+                              foregroundColor: Colors.greenAccent,
+                              radius: 5,
+                            ),
+                          ],
+                        ),
+                        SizedBox(
+                          width: 15,
+                        ),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                "Ahmed Ali",
+                                maxLines: 1,
+                                overflow: TextOverflow.ellipsis,
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                              SizedBox(
+                                height: 10,
+                              ),
+                              Row(
+                                children: [
+                                  Expanded(
+                                    child: Text(
+                                      "hello world",
+                                      maxLines: 1,
+                                      overflow: TextOverflow.ellipsis,
+                                    ),
+                                  ),
+                                  Padding(
+                                    padding: const EdgeInsets.symmetric(
+                                      horizontal: 10,
+                                    ),
+                                    child: Container(
+                                      width: 9,
+                                      height: 9,
+                                      decoration: BoxDecoration(
+                                        shape: BoxShape.circle,
+                                        color: Colors.amber,
+                                      ),
+                                    ),
+                                  ),
+                                  Text(
+                                    "1:40",
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          Text(
-                            textAlign: TextAlign.center,
-                            "Abd El-hamed Zyada",
-                            maxLines: 2,
-                            overflow: TextOverflow.ellipsis,
-                          ),
-                        ],
-                      ),
+                        ),
+                      ],
                     ),
                     SizedBox(
-                      height: 20,
+                      height: 10,
                     ),
-                    Container(
-                      width: 60,
-                      child: Column(
-                        children: [
-                          Stack(
-                            children: [
-                              CircleAvatar(
-                                child: Image(
-                                  image: NetworkImage(
-                                    "https://cdn-icons-png.flaticon.com/512/149/149071.png",
-                                  ),
+                    Row(
+                      children: [
+                        Stack(
+                          alignment: AlignmentDirectional.bottomEnd,
+                          children: [
+                            CircleAvatar(
+                              child: Image(
+                                image: NetworkImage(
+                                  "https://cdn-icons-png.flaticon.com/512/149/149071.png",
                                 ),
+                              ),
+                            ),
+                            CircleAvatar(
+                              backgroundColor: Colors.white,
+                              radius: 5.75,
+                            ),
+                            CircleAvatar(
+                              foregroundColor: Colors.greenAccent,
+                              radius: 5,
+                            ),
+                          ],
+                        ),
+                        SizedBox(
+                          width: 15,
+                        ),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                "Ahmed Ali",
+                                maxLines: 1,
+                                overflow: TextOverflow.ellipsis,
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                              SizedBox(
+                                height: 10,
+                              ),
+                              Row(
+                                children: [
+                                  Expanded(
+                                    child: Text(
+                                      "hello world",
+                                      maxLines: 1,
+                                      overflow: TextOverflow.ellipsis,
+                                    ),
+                                  ),
+                                  Padding(
+                                    padding: const EdgeInsets.symmetric(
+                                      horizontal: 10,
+                                    ),
+                                    child: Container(
+                                      width: 9,
+                                      height: 9,
+                                      decoration: BoxDecoration(
+                                        shape: BoxShape.circle,
+                                        color: Colors.amber,
+                                      ),
+                                    ),
+                                  ),
+                                  Text(
+                                    "1:40",
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          Text(
-                            textAlign: TextAlign.center,
-                            "Abd El-hamed Zyada",
-                            maxLines: 2,
-                            overflow: TextOverflow.ellipsis,
-                          ),
-                        ],
-                      ),
+                        ),
+                      ],
                     ),
                     SizedBox(
-                      height: 20,
+                      height: 10,
                     ),
-                    Container(
-                      width: 60,
-                      child: Column(
-                        children: [
-                          Stack(
-                            children: [
-                              CircleAvatar(
-                                child: Image(
-                                  image: NetworkImage(
-                                    "https://cdn-icons-png.flaticon.com/512/149/149071.png",
-                                  ),
+                    Row(
+                      children: [
+                        Stack(
+                          alignment: AlignmentDirectional.bottomEnd,
+                          children: [
+                            CircleAvatar(
+                              child: Image(
+                                image: NetworkImage(
+                                  "https://cdn-icons-png.flaticon.com/512/149/149071.png",
                                 ),
+                              ),
+                            ),
+                            CircleAvatar(
+                              backgroundColor: Colors.white,
+                              radius: 5.75,
+                            ),
+                            CircleAvatar(
+                              foregroundColor: Colors.greenAccent,
+                              radius: 5,
+                            ),
+                          ],
+                        ),
+                        SizedBox(
+                          width: 15,
+                        ),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                "Ahmed Ali",
+                                maxLines: 1,
+                                overflow: TextOverflow.ellipsis,
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                              SizedBox(
+                                height: 10,
+                              ),
+                              Row(
+                                children: [
+                                  Expanded(
+                                    child: Text(
+                                      "hello world",
+                                      maxLines: 1,
+                                      overflow: TextOverflow.ellipsis,
+                                    ),
+                                  ),
+                                  Padding(
+                                    padding: const EdgeInsets.symmetric(
+                                      horizontal: 10,
+                                    ),
+                                    child: Container(
+                                      width: 9,
+                                      height: 9,
+                                      decoration: BoxDecoration(
+                                        shape: BoxShape.circle,
+                                        color: Colors.amber,
+                                      ),
+                                    ),
+                                  ),
+                                  Text(
+                                    "1:40",
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          Text(
-                            textAlign: TextAlign.center,
-                            "Abd El-hamed Zyada",
-                            maxLines: 2,
-                            overflow: TextOverflow.ellipsis,
-                          ),
-                        ],
-                      ),
+                        ),
+                      ],
                     ),
                     SizedBox(
-                      height: 20,
+                      height: 10,
                     ),
-                    Container(
-                      width: 60,
-                      child: Column(
-                        children: [
-                          Stack(
-                            children: [
-                              CircleAvatar(
-                                child: Image(
-                                  image: NetworkImage(
-                                    "https://cdn-icons-png.flaticon.com/512/149/149071.png",
-                                  ),
+                    Row(
+                      children: [
+                        Stack(
+                          alignment: AlignmentDirectional.bottomEnd,
+                          children: [
+                            CircleAvatar(
+                              child: Image(
+                                image: NetworkImage(
+                                  "https://cdn-icons-png.flaticon.com/512/149/149071.png",
                                 ),
+                              ),
+                            ),
+                            CircleAvatar(
+                              backgroundColor: Colors.white,
+                              radius: 5.75,
+                            ),
+                            CircleAvatar(
+                              foregroundColor: Colors.greenAccent,
+                              radius: 5,
+                            ),
+                          ],
+                        ),
+                        SizedBox(
+                          width: 15,
+                        ),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                "Ahmed Ali",
+                                maxLines: 1,
+                                overflow: TextOverflow.ellipsis,
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                              SizedBox(
+                                height: 10,
+                              ),
+                              Row(
+                                children: [
+                                  Expanded(
+                                    child: Text(
+                                      "hello world",
+                                      maxLines: 1,
+                                      overflow: TextOverflow.ellipsis,
+                                    ),
+                                  ),
+                                  Padding(
+                                    padding: const EdgeInsets.symmetric(
+                                      horizontal: 10,
+                                    ),
+                                    child: Container(
+                                      width: 9,
+                                      height: 9,
+                                      decoration: BoxDecoration(
+                                        shape: BoxShape.circle,
+                                        color: Colors.amber,
+                                      ),
+                                    ),
+                                  ),
+                                  Text(
+                                    "1:40",
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          Text(
-                            textAlign: TextAlign.center,
-                            "Abd El-hamed Zyada",
-                            maxLines: 2,
-                            overflow: TextOverflow.ellipsis,
-                          ),
-                        ],
-                      ),
+                        ),
+                      ],
                     ),
                     SizedBox(
-                      height: 20,
+                      height: 10,
                     ),
-                    Container(
-                      width: 60,
-                      child: Column(
-                        children: [
-                          Stack(
-                            children: [
-                              CircleAvatar(
-                                child: Image(
-                                  image: NetworkImage(
-                                    "https://cdn-icons-png.flaticon.com/512/149/149071.png",
-                                  ),
+                    Row(
+                      children: [
+                        Stack(
+                          alignment: AlignmentDirectional.bottomEnd,
+                          children: [
+                            CircleAvatar(
+                              child: Image(
+                                image: NetworkImage(
+                                  "https://cdn-icons-png.flaticon.com/512/149/149071.png",
                                 ),
+                              ),
+                            ),
+                            CircleAvatar(
+                              backgroundColor: Colors.white,
+                              radius: 5.75,
+                            ),
+                            CircleAvatar(
+                              foregroundColor: Colors.greenAccent,
+                              radius: 5,
+                            ),
+                          ],
+                        ),
+                        SizedBox(
+                          width: 15,
+                        ),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                "Ahmed Ali",
+                                maxLines: 1,
+                                overflow: TextOverflow.ellipsis,
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                              SizedBox(
+                                height: 10,
+                              ),
+                              Row(
+                                children: [
+                                  Expanded(
+                                    child: Text(
+                                      "hello world",
+                                      maxLines: 1,
+                                      overflow: TextOverflow.ellipsis,
+                                    ),
+                                  ),
+                                  Padding(
+                                    padding: const EdgeInsets.symmetric(
+                                      horizontal: 10,
+                                    ),
+                                    child: Container(
+                                      width: 9,
+                                      height: 9,
+                                      decoration: BoxDecoration(
+                                        shape: BoxShape.circle,
+                                        color: Colors.amber,
+                                      ),
+                                    ),
+                                  ),
+                                  Text(
+                                    "1:40",
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          Text(
-                            textAlign: TextAlign.center,
-                            "Abd El-hamed Zyada",
-                            maxLines: 2,
-                            overflow: TextOverflow.ellipsis,
-                          ),
-                        ],
-                      ),
+                        ),
+                      ],
                     ),
                     SizedBox(
-                      height: 20,
+                      height: 10,
                     ),
-                    Container(
-                      width: 60,
-                      child: Column(
-                        children: [
-                          Stack(
-                            children: [
-                              CircleAvatar(
-                                child: Image(
-                                  image: NetworkImage(
-                                    "https://cdn-icons-png.flaticon.com/512/149/149071.png",
-                                  ),
+                    Row(
+                      children: [
+                        Stack(
+                          alignment: AlignmentDirectional.bottomEnd,
+                          children: [
+                            CircleAvatar(
+                              child: Image(
+                                image: NetworkImage(
+                                  "https://cdn-icons-png.flaticon.com/512/149/149071.png",
                                 ),
+                              ),
+                            ),
+                            CircleAvatar(
+                              backgroundColor: Colors.white,
+                              radius: 5.75,
+                            ),
+                            CircleAvatar(
+                              foregroundColor: Colors.greenAccent,
+                              radius: 5,
+                            ),
+                          ],
+                        ),
+                        SizedBox(
+                          width: 15,
+                        ),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                "Ahmed Ali",
+                                maxLines: 1,
+                                overflow: TextOverflow.ellipsis,
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                              SizedBox(
+                                height: 10,
+                              ),
+                              Row(
+                                children: [
+                                  Expanded(
+                                    child: Text(
+                                      "hello world",
+                                      maxLines: 1,
+                                      overflow: TextOverflow.ellipsis,
+                                    ),
+                                  ),
+                                  Padding(
+                                    padding: const EdgeInsets.symmetric(
+                                      horizontal: 10,
+                                    ),
+                                    child: Container(
+                                      width: 9,
+                                      height: 9,
+                                      decoration: BoxDecoration(
+                                        shape: BoxShape.circle,
+                                        color: Colors.amber,
+                                      ),
+                                    ),
+                                  ),
+                                  Text(
+                                    "1:40",
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          Text(
-                            textAlign: TextAlign.center,
-                            "Abd El-hamed Zyada",
-                            maxLines: 2,
-                            overflow: TextOverflow.ellipsis,
-                          ),
-                        ],
-                      ),
+                        ),
+                      ],
                     ),
                     SizedBox(
-                      height: 20,
+                      height: 10,
                     ),
-                    Container(
-                      width: 60,
-                      child: Column(
-                        children: [
-                          Stack(
-                            children: [
-                              CircleAvatar(
-                                child: Image(
-                                  image: NetworkImage(
-                                    "https://cdn-icons-png.flaticon.com/512/149/149071.png",
-                                  ),
+                    Row(
+                      children: [
+                        Stack(
+                          alignment: AlignmentDirectional.bottomEnd,
+                          children: [
+                            CircleAvatar(
+                              child: Image(
+                                image: NetworkImage(
+                                  "https://cdn-icons-png.flaticon.com/512/149/149071.png",
                                 ),
+                              ),
+                            ),
+                            CircleAvatar(
+                              backgroundColor: Colors.white,
+                              radius: 5.75,
+                            ),
+                            CircleAvatar(
+                              foregroundColor: Colors.greenAccent,
+                              radius: 5,
+                            ),
+                          ],
+                        ),
+                        SizedBox(
+                          width: 15,
+                        ),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                "Ahmed Ali",
+                                maxLines: 1,
+                                overflow: TextOverflow.ellipsis,
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                              SizedBox(
+                                height: 10,
+                              ),
+                              Row(
+                                children: [
+                                  Expanded(
+                                    child: Text(
+                                      "hello world",
+                                      maxLines: 1,
+                                      overflow: TextOverflow.ellipsis,
+                                    ),
+                                  ),
+                                  Padding(
+                                    padding: const EdgeInsets.symmetric(
+                                      horizontal: 10,
+                                    ),
+                                    child: Container(
+                                      width: 9,
+                                      height: 9,
+                                      decoration: BoxDecoration(
+                                        shape: BoxShape.circle,
+                                        color: Colors.amber,
+                                      ),
+                                    ),
+                                  ),
+                                  Text(
+                                    "1:40",
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          Text(
-                            textAlign: TextAlign.center,
-                            "Abd El-hamed Zyada",
-                            maxLines: 2,
-                            overflow: TextOverflow.ellipsis,
-                          ),
-                        ],
-                      ),
+                        ),
+                      ],
                     ),
                     SizedBox(
-                      height: 20,
+                      height: 10,
                     ),
-                    Container(
-                      width: 60,
-                      child: Column(
-                        children: [
-                          Stack(
-                            children: [
-                              CircleAvatar(
-                                child: Image(
-                                  image: NetworkImage(
-                                    "https://cdn-icons-png.flaticon.com/512/149/149071.png",
-                                  ),
+                    Row(
+                      children: [
+                        Stack(
+                          alignment: AlignmentDirectional.bottomEnd,
+                          children: [
+                            CircleAvatar(
+                              child: Image(
+                                image: NetworkImage(
+                                  "https://cdn-icons-png.flaticon.com/512/149/149071.png",
                                 ),
+                              ),
+                            ),
+                            CircleAvatar(
+                              backgroundColor: Colors.white,
+                              radius: 5.75,
+                            ),
+                            CircleAvatar(
+                              foregroundColor: Colors.greenAccent,
+                              radius: 5,
+                            ),
+                          ],
+                        ),
+                        SizedBox(
+                          width: 15,
+                        ),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                "Ahmed Ali",
+                                maxLines: 1,
+                                overflow: TextOverflow.ellipsis,
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                              SizedBox(
+                                height: 10,
+                              ),
+                              Row(
+                                children: [
+                                  Expanded(
+                                    child: Text(
+                                      "hello world",
+                                      maxLines: 1,
+                                      overflow: TextOverflow.ellipsis,
+                                    ),
+                                  ),
+                                  Padding(
+                                    padding: const EdgeInsets.symmetric(
+                                      horizontal: 10,
+                                    ),
+                                    child: Container(
+                                      width: 9,
+                                      height: 9,
+                                      decoration: BoxDecoration(
+                                        shape: BoxShape.circle,
+                                        color: Colors.amber,
+                                      ),
+                                    ),
+                                  ),
+                                  Text(
+                                    "1:40",
+                                  ),
+                                ],
                               ),
                             ],
                           ),
-                          Text(
-                            textAlign: TextAlign.center,
-                            "Abd El-hamed Zyada",
-                            maxLines: 2,
-                            overflow: TextOverflow.ellipsis,
+                        ),
+                      ],
+                    ),
+                    SizedBox(
+                      height: 10,
+                    ),
+                    Row(
+                      children: [
+                        Stack(
+                          alignment: AlignmentDirectional.bottomEnd,
+                          children: [
+                            CircleAvatar(
+                              child: Image(
+                                image: NetworkImage(
+                                  "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+                                ),
+                              ),
+                            ),
+                            CircleAvatar(
+                              backgroundColor: Colors.white,
+                              radius: 5.75,
+                            ),
+                            CircleAvatar(
+                              foregroundColor: Colors.greenAccent,
+                              radius: 5,
+                            ),
+                          ],
+                        ),
+                        SizedBox(
+                          width: 15,
+                        ),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                "Ahmed Ali",
+                                maxLines: 1,
+                                overflow: TextOverflow.ellipsis,
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                              SizedBox(
+                                height: 10,
+                              ),
+                              Row(
+                                children: [
+                                  Expanded(
+                                    child: Text(
+                                      "hello world",
+                                      maxLines: 1,
+                                      overflow: TextOverflow.ellipsis,
+                                    ),
+                                  ),
+                                  Padding(
+                                    padding: const EdgeInsets.symmetric(
+                                      horizontal: 10,
+                                    ),
+                                    child: Container(
+                                      width: 9,
+                                      height: 9,
+                                      decoration: BoxDecoration(
+                                        shape: BoxShape.circle,
+                                        color: Colors.amber,
+                                      ),
+                                    ),
+                                  ),
+                                  Text(
+                                    "1:40",
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
-                        ],
-                      ),
+                        ),
+                      ],
+                    ),
+                    SizedBox(
+                      height: 10,
+                    ),
+                    Row(
+                      children: [
+                        Stack(
+                          alignment: AlignmentDirectional.bottomEnd,
+                          children: [
+                            CircleAvatar(
+                              child: Image(
+                                image: NetworkImage(
+                                  "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+                                ),
+                              ),
+                            ),
+                            CircleAvatar(
+                              backgroundColor: Colors.white,
+                              radius: 5.75,
+                            ),
+                            CircleAvatar(
+                              foregroundColor: Colors.greenAccent,
+                              radius: 5,
+                            ),
+                          ],
+                        ),
+                        SizedBox(
+                          width: 15,
+                        ),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                "Ahmed Ali",
+                                maxLines: 1,
+                                overflow: TextOverflow.ellipsis,
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                              SizedBox(
+                                height: 10,
+                              ),
+                              Row(
+                                children: [
+                                  Expanded(
+                                    child: Text(
+                                      "hello world",
+                                      maxLines: 1,
+                                      overflow: TextOverflow.ellipsis,
+                                    ),
+                                  ),
+                                  Padding(
+                                    padding: const EdgeInsets.symmetric(
+                                      horizontal: 10,
+                                    ),
+                                    child: Container(
+                                      width: 9,
+                                      height: 9,
+                                      decoration: BoxDecoration(
+                                        shape: BoxShape.circle,
+                                        color: Colors.amber,
+                                      ),
+                                    ),
+                                  ),
+                                  Text(
+                                    "1:40",
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                        ),
+                      ],
+                    ),
+                    SizedBox(
+                      height: 10,
+                    ),
+                    Row(
+                      children: [
+                        Stack(
+                          alignment: AlignmentDirectional.bottomEnd,
+                          children: [
+                            CircleAvatar(
+                              child: Image(
+                                image: NetworkImage(
+                                  "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+                                ),
+                              ),
+                            ),
+                            CircleAvatar(
+                              backgroundColor: Colors.white,
+                              radius: 5.75,
+                            ),
+                            CircleAvatar(
+                              foregroundColor: Colors.greenAccent,
+                              radius: 5,
+                            ),
+                          ],
+                        ),
+                        SizedBox(
+                          width: 15,
+                        ),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                "Ahmed Ali",
+                                maxLines: 1,
+                                overflow: TextOverflow.ellipsis,
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                              SizedBox(
+                                height: 10,
+                              ),
+                              Row(
+                                children: [
+                                  Expanded(
+                                    child: Text(
+                                      "hello world",
+                                      maxLines: 1,
+                                      overflow: TextOverflow.ellipsis,
+                                    ),
+                                  ),
+                                  Padding(
+                                    padding: const EdgeInsets.symmetric(
+                                      horizontal: 10,
+                                    ),
+                                    child: Container(
+                                      width: 9,
+                                      height: 9,
+                                      decoration: BoxDecoration(
+                                        shape: BoxShape.circle,
+                                        color: Colors.amber,
+                                      ),
+                                    ),
+                                  ),
+                                  Text(
+                                    "1:40",
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                        ),
+                      ],
+                    ),
+                    SizedBox(
+                      height: 10,
+                    ),
+                    Row(
+                      children: [
+                        Stack(
+                          alignment: AlignmentDirectional.bottomEnd,
+                          children: [
+                            CircleAvatar(
+                              child: Image(
+                                image: NetworkImage(
+                                  "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+                                ),
+                              ),
+                            ),
+                            CircleAvatar(
+                              backgroundColor: Colors.white,
+                              radius: 5.75,
+                            ),
+                            CircleAvatar(
+                              foregroundColor: Colors.greenAccent,
+                              radius: 5,
+                            ),
+                          ],
+                        ),
+                        SizedBox(
+                          width: 15,
+                        ),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                "Ahmed Ali",
+                                maxLines: 1,
+                                overflow: TextOverflow.ellipsis,
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                              SizedBox(
+                                height: 10,
+                              ),
+                              Row(
+                                children: [
+                                  Expanded(
+                                    child: Text(
+                                      "hello world",
+                                      maxLines: 1,
+                                      overflow: TextOverflow.ellipsis,
+                                    ),
+                                  ),
+                                  Padding(
+                                    padding: const EdgeInsets.symmetric(
+                                      horizontal: 10,
+                                    ),
+                                    child: Container(
+                                      width: 9,
+                                      height: 9,
+                                      decoration: BoxDecoration(
+                                        shape: BoxShape.circle,
+                                        color: Colors.amber,
+                                      ),
+                                    ),
+                                  ),
+                                  Text(
+                                    "1:40",
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                        ),
+                      ],
+                    ),
+                    SizedBox(
+                      height: 10,
+                    ),
+                    Row(
+                      children: [
+                        Stack(
+                          alignment: AlignmentDirectional.bottomEnd,
+                          children: [
+                            CircleAvatar(
+                              child: Image(
+                                image: NetworkImage(
+                                  "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+                                ),
+                              ),
+                            ),
+                            CircleAvatar(
+                              backgroundColor: Colors.white,
+                              radius: 5.75,
+                            ),
+                            CircleAvatar(
+                              foregroundColor: Colors.greenAccent,
+                              radius: 5,
+                            ),
+                          ],
+                        ),
+                        SizedBox(
+                          width: 15,
+                        ),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                "Ahmed Ali",
+                                maxLines: 1,
+                                overflow: TextOverflow.ellipsis,
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                              SizedBox(
+                                height: 10,
+                              ),
+                              Row(
+                                children: [
+                                  Expanded(
+                                    child: Text(
+                                      "hello world",
+                                      maxLines: 1,
+                                      overflow: TextOverflow.ellipsis,
+                                    ),
+                                  ),
+                                  Padding(
+                                    padding: const EdgeInsets.symmetric(
+                                      horizontal: 10,
+                                    ),
+                                    child: Container(
+                                      width: 9,
+                                      height: 9,
+                                      decoration: BoxDecoration(
+                                        shape: BoxShape.circle,
+                                        color: Colors.amber,
+                                      ),
+                                    ),
+                                  ),
+                                  Text(
+                                    "1:40",
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                        ),
+                      ],
+                    ),
+                    SizedBox(
+                      height: 10,
+                    ),
+                    Row(
+                      children: [
+                        Stack(
+                          alignment: AlignmentDirectional.bottomEnd,
+                          children: [
+                            CircleAvatar(
+                              child: Image(
+                                image: NetworkImage(
+                                  "https://cdn-icons-png.flaticon.com/512/149/149071.png",
+                                ),
+                              ),
+                            ),
+                            CircleAvatar(
+                              backgroundColor: Colors.white,
+                              radius: 5.75,
+                            ),
+                            CircleAvatar(
+                              foregroundColor: Colors.greenAccent,
+                              radius: 5,
+                            ),
+                          ],
+                        ),
+                        SizedBox(
+                          width: 15,
+                        ),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                "Ahmed Ali",
+                                maxLines: 1,
+                                overflow: TextOverflow.ellipsis,
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                              SizedBox(
+                                height: 10,
+                              ),
+                              Row(
+                                children: [
+                                  Expanded(
+                                    child: Text(
+                                      "hello world",
+                                      maxLines: 1,
+                                      overflow: TextOverflow.ellipsis,
+                                    ),
+                                  ),
+                                  Padding(
+                                    padding: const EdgeInsets.symmetric(
+                                      horizontal: 10,
+                                    ),
+                                    child: Container(
+                                      width: 9,
+                                      height: 9,
+                                      decoration: BoxDecoration(
+                                        shape: BoxShape.circle,
+                                        color: Colors.amber,
+                                      ),
+                                    ),
+                                  ),
+                                  Text(
+                                    "1:40",
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                        ),
+                      ],
+                    ),
+                    SizedBox(
+                      height: 10,
                     ),
                   ],
                 ),
