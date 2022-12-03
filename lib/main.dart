@@ -2,12 +2,13 @@
 
 import 'package:flutter/material.dart';
 import 'package:whatsapp_clone/contacts_list.dart';
+import 'package:whatsapp_clone/testSttful.dart';
 
 void main() {
   runApp(
     MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ContactsList(),
+      home: MyWidget(),
     ),
   );
 }
